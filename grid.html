@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS Flexbox| Zuri task</title>
+  <style type="text/css">
+  	@import url('https://fonts.google.com/specimen/Big+Shoulders+Display')
+  	@import url('https://fonts.google.com/specimen/Lexend+Deca')
+
+  	* {
+  		box-sizing: border-box;
+  		padding: 0;
+  		margin: 0;
+	}
+
+    body{
+      background: #1a1c28
+    }
+
+  	section{
+      display: grid;
+      grid-template-columns: 600px 200px 400px;
+      grid-template-rows: 300px 120px 180px;
+      grid-gap: 20px;
+      background: #1a1c28;
+      padding: 10px;
+      justify-content: center;
+    }
+
+    div{
+      padding: 20px 0;
+      padding-right: 20px;
+    }
+
+    .one{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background: #eb5020;
+      
+    }
+
+    .two{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      background: #ffa401;
+      
+      padding-left: 10px;
+      padding-right: 20px;
+    }
+
+    .three{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      background: #05aa42;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .four{
+      grid-column-start: 2;
+      grid-column-end: 4;
+      background: #01aefd;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    .five{
+      grid-column-start: 2;
+      grid-column-end: 4;
+      background: #01aefd;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+  </style>
+</head>
+  <body>
+    <section>
+      <div class="one">
+        
+      </div>
+      <div class="two">
+        
+      </div>
+      <div class="three">
+        
+      </div>
+      <div class="four">
+        
+      </div>
+      <div class="five">
+        
+    </section>
+</body>
+</html> 
